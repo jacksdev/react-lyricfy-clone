@@ -14,7 +14,7 @@ const Track = ({track}) => (
           <strong><i className="fas fa-compact-disc"></i> Albun</strong>: {track.album_name}
           <br />
           <br />
-          <Link to={`lyrics/tracks/${track.track_id}`} className="btn btn-dark btn-block">
+          <Link to={`lyrics/track/${track.track_id}`} className="btn btn-dark btn-block">
             <i className="fas fa-chevron-right"></i> View lyrics
           </Link>
         </p>
