@@ -46,7 +46,7 @@ class Search extends Component {
                   <input
                     type="text"
                     className="form-control formcontrol-lg mb-2"
-                    placeholder="Song tytle..."
+                    placeholder="Song title..."
                     name="trackTitle"
                     value={this.state.trackTitle}
                     onChange={this.onChange}
